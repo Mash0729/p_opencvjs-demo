@@ -1,9 +1,16 @@
 .dispContainer {
+  width: 100%;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
 .dispBox {
-  width: 40%;
+  width: 45%;
   border: 1px solid #111;
+}
+
+.dispBox img {
+  max-width: 100%;
 }
