@@ -1,0 +1,9 @@
+.dispContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.dispBox {
+  width: 40%;
+  border: 1px solid #111;
+}
