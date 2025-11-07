@@ -6,6 +6,9 @@ const dispOutput = document.getElementById("dispOutput");
 
 let targetImage = null;
 
+// リロード時にinputを初期化
+imageInput.value = "";
+
 // 画像読み込み
 imageInput.addEventListener("change", (e) => {
   const file = e.target.files[0];
@@ -74,6 +77,7 @@ procButton.addEventListener("click", () => {
 
 // クリアボタン押下時
 clearButton.addEventListener("click", () => {
+  imageInput.value = "";
   dispInput.innerHTML = "";
   dispOutput.innerHTML = "";
 })
