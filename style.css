@@ -8,6 +8,8 @@
 }
 
 .dispBox {
+  min-width: 400px;
+  min-height:300px;
   max-width: 600px;
   border: 1px solid #111;
 }
